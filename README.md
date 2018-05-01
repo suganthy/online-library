@@ -53,6 +53,23 @@ change all .css files to .scss
 
 ----------------------------------------------------------------------------------
 
+Setting up bootstrap
+
+npm install bootstrap-sass --save
+
+https://getbootstrap.com/docs/4.1/components/
+
+In angular-cli.json,
+"styles": [
+	"../node_modules/bootstrap/dist/css/bootstrap.min.css"
+]
+
+"scripts": [
+		 "../node_modules/bootstrap/dist/js/bootstrap.js"
+]
+
+----------------------------------------------------------------------------------
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
 ## Development server

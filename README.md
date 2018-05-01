@@ -38,6 +38,21 @@ git push https://github.com/jithindnaik/online-library.git
 
 ----------------------------------------------------------------------------------
 
+Providing support for Sass
+
+ng set defaults.styleExt scss
+
+change all .css files to .scss
+
+@Component({
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./yourfilesass.scss'  ]
+})
+
+
+----------------------------------------------------------------------------------
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
 ## Development server

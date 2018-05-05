@@ -53,6 +53,16 @@ change all .css files to .scss
 
 ----------------------------------------------------------------------------------
 
+Setting up Bootstrap 
+
+Change the package.json dependency to support bootstrap version 
+"bootstrap" : "^3.3.7"     
+
+Run command
+npm intstall
+
+----------------------------------------------------------------------------------
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
 ## Development server

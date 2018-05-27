@@ -26,7 +26,7 @@ git config --global user.name "Your Name"
 
 Setting the origin for GIT
 
-git remote add origin https://github.com/jithindnaik/online-library.git
+git remote add origin https://github.com/suganthy/online-library
 
 ----------------------------------------------------------------------------------
 
@@ -34,7 +34,7 @@ Storing the credentials
 
 git config credential.helper store
 
-git push https://github.com/jithindnaik/online-library.git
+git push https://github.com/suganthy/online-library
 
 ----------------------------------------------------------------------------------
 
@@ -50,6 +50,14 @@ change all .css files to .scss
     styleUrls: ['./yourfilesass.scss'  ]
 })
 
+----------------------------------------------------------------------------------
+Setting up Bootstrap 
+
+Change the package.json dependency to support bootstrap version 
+"bootstrap" : "^3.3.7"     
+
+Run command
+npm install
 
 ----------------------------------------------------------------------------------
 
